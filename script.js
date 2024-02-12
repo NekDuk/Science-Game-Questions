@@ -1,4 +1,4 @@
-var rng = Math.floor(Math.random() * 3) + 1;
+var rng = Math.floor(Math.random() * 6) + 1;
 
 window.onload = function() {
   document.getElementById(rng).style.display = "block";
